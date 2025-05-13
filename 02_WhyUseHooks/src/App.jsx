@@ -18,7 +18,7 @@ console.log("Clicked",count);
   else{
     let x = document.createElement("div");
             let t =
-                document.createTextNode("Greater than 25 not possible");
+                document.createTextNode("Game Over!!!!! Greater than 25 not possible");
             x.appendChild(t);
             document.body.appendChild(x);
 
@@ -36,7 +36,7 @@ console.log("Clicked",count);
   else{
     let x = document.createElement("div");
             let t =
-                document.createTextNode("Negative Not possible");
+                document.createTextNode("Game Over!!!!! Negative Not possible");
             x.appendChild(t);
             document.body.appendChild(x);
   }
